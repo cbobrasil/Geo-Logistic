@@ -1,0 +1,63 @@
+name: build-and-deploy-site
+
+on:
+  # manual trigger
+  workflow_dispatch:
+  # optional: run daily at 05:15 UTC (06:15/07:15 in Lisbon depending on DST)
+  schedule:
+    - cron: "15 5 * * *"
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout
+        uses: actions/checkout@v4
+
+      - name: setup python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: install dependencies
+        run: pip install -r requirements.txt
+
+      # --- generate today's data (or skip if you only want to publish existing pages)
+      - name: generate today
+        run: python src/create_orders_today.py
+
+      - name: consolidate (optional)
+        run: python src/consolidate_duckdb.py
+
+      # --- render today's page + rebuild index
+      - name: render pages
+        run: |
+          d=$(date -u +%Y-%m-%d)
+          python src/render/build_day.py --date "$d" || true
+          python src/render/build_index.py
+
+      # --- upload the site/ folder as the artifact for Pages
+      - name: upload pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: deploy to github pages
+        id: deployment
+        uses: actions/deploy-pages@v4
