@@ -1,0 +1,243 @@
+order_id,scheduled_date,lon,lat,city,service_time_min,priority,datetime_ingestion,filename
+ord-017471c5,2025-10-01,-7.290093,40.521048,guarda,10,high,2025-10-21 22:26:34.029051,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-01.csv
+ord-02a184c8,2025-10-01,-7.933052,37.009192,faro,20,normal,2025-10-21 22:26:34.029051,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-01.csv
+ord-1236fd42,2025-10-01,-8.418598,40.218987,coimbra,5,high,2025-10-21 22:26:34.029051,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-01.csv
+ord-13105166,2025-10-01,-8.676644,39.248577,santarém,5,low,2025-10-21 22:26:34.029051,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-01.csv
+ord-1e09de41,2025-10-01,-8.625425,41.166541,porto,20,low,2025-10-21 22:26:34.029051,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-01.csv
+ord-2197eaa2,2025-10-01,-7.271585,40.523519,guarda,15,low,2025-10-21 22:26:34.029051,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-01.csv
+ord-6dc92fc7,2025-10-01,-8.874772,38.533589,setúbal,5,normal,2025-10-21 22:26:34.029051,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-01.csv
+ord-727bebd5,2025-10-01,-8.457699,40.194301,coimbra,10,low,2025-10-21 22:26:34.029051,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-01.csv
+ord-746d9580,2025-10-01,-8.407881,41.560059,braga,20,normal,2025-10-21 22:26:34.029051,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-01.csv
+ord-791add44,2025-10-01,-8.426078,41.558576,braga,15,high,2025-10-21 22:26:34.029051,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-01.csv
+ord-a34ef565,2025-10-01,-8.863829,38.53,setúbal,10,high,2025-10-21 22:26:34.029051,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-01.csv
+ord-b1cf4eab,2025-10-01,-7.901426,40.642833,viseu,10,normal,2025-10-21 22:26:34.029051,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-01.csv
+ord-d068b8b7,2025-10-01,-8.673859,39.230793,santarém,15,normal,2025-10-21 22:26:34.029051,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-01.csv
+ord-e8922e1a,2025-10-01,-8.436404,41.539759,braga,15,high,2025-10-21 22:26:34.029051,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-01.csv
+ord-ff733b33,2025-10-01,-7.903489,40.669073,viseu,5,high,2025-10-21 22:26:34.029051,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-01.csv
+ord-100b2d45,2025-10-02,-7.238131,40.533276,guarda,10,low,2025-10-21 22:26:34.029051,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-02.csv
+ord-14fe744c,2025-10-02,-8.919229,38.540925,setúbal,15,low,2025-10-21 22:26:34.029051,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-02.csv
+ord-2e8a8955,2025-10-02,-7.432589,39.306931,portalegre,5,low,2025-10-21 22:26:34.029051,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-02.csv
+ord-4837a7b6,2025-10-02,-8.914822,38.5342,setúbal,15,high,2025-10-21 22:26:34.029051,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-02.csv
+ord-4df055e3,2025-10-02,-8.856607,41.690591,viana do castelo,20,low,2025-10-21 22:26:34.029051,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-02.csv
+ord-800fe89f,2025-10-02,-6.750947,41.805422,bragança,15,high,2025-10-21 22:26:34.029051,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-02.csv
+ord-827baa68,2025-10-02,-8.618283,41.142482,porto,15,high,2025-10-21 22:26:34.029051,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-02.csv
+ord-949bbe3d,2025-10-02,-7.917575,37.016286,faro,5,normal,2025-10-21 22:26:34.029051,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-02.csv
+ord-b43660ae,2025-10-02,-7.497162,39.838782,castelo branco,20,low,2025-10-21 22:26:34.029051,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-02.csv
+ord-ef109079,2025-10-02,-9.155557,38.703584,lisboa,15,normal,2025-10-21 22:26:34.029051,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-02.csv
+ord-3bcc9806,2025-10-03,-7.847884,38.022695,beja,15,normal,2025-10-21 22:26:34.029051,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-03.csv
+ord-3c141e9d,2025-10-03,-7.416482,39.297007,portalegre,5,high,2025-10-21 22:26:34.029051,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-03.csv
+ord-49a753b4,2025-10-03,-7.749814,41.301303,vilareal,5,low,2025-10-21 22:26:34.029051,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-03.csv
+ord-99a89d8a,2025-10-03,-7.464089,39.808805,castelo branco,20,low,2025-10-21 22:26:34.029051,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-03.csv
+ord-9f670c5e,2025-10-03,-7.730349,41.302175,vilareal,5,high,2025-10-21 22:26:34.029051,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-03.csv
+ord-ca32d96e,2025-10-03,-8.833984,41.677675,viana do castelo,15,normal,2025-10-21 22:26:34.029051,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-03.csv
+ord-d65bc98a,2025-10-03,-7.936224,38.58182,évora,5,low,2025-10-21 22:26:34.029051,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-03.csv
+ord-d87de07b,2025-10-03,-8.7845,39.743907,leiria,10,low,2025-10-21 22:26:34.029051,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-03.csv
+ord-dd445055,2025-10-03,-7.471939,39.841319,castelo branco,10,low,2025-10-21 22:26:34.029051,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-03.csv
+ord-04600a52,2025-10-04,-7.50632,39.821119,castelo branco,20,low,2025-10-21 22:26:34.029051,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-04.csv
+ord-45770467,2025-10-04,-8.404875,41.559785,braga,5,high,2025-10-21 22:26:34.029051,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-04.csv
+ord-68ae3110,2025-10-04,-8.438915,41.548932,braga,10,high,2025-10-21 22:26:34.029051,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-04.csv
+ord-6919ea38,2025-10-04,-7.939269,38.575014,évora,5,low,2025-10-21 22:26:34.029051,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-04.csv
+ord-8a7a9be9,2025-10-04,-8.66017,39.218367,santarém,5,low,2025-10-21 22:26:34.029051,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-04.csv
+ord-b3ee05da,2025-10-04,-8.453384,40.200542,coimbra,20,normal,2025-10-21 22:26:34.029051,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-04.csv
+ord-b4c21e28,2025-10-04,-7.922991,38.566117,évora,10,high,2025-10-21 22:26:34.029051,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-04.csv
+ord-b9a5c270,2025-10-04,-6.743007,41.818724,bragança,5,low,2025-10-21 22:26:34.029051,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-04.csv
+ord-02eea5b4,2025-10-05,-7.925898,40.679748,viseu,5,high,2025-10-21 22:26:34.029051,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-05.csv
+ord-3cecce17,2025-10-05,-8.694885,39.244064,santarém,20,low,2025-10-21 22:26:34.029051,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-05.csv
+ord-4bb43013,2025-10-05,-9.159422,38.702386,lisboa,20,normal,2025-10-21 22:26:34.029051,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-05.csv
+ord-699ba6db,2025-10-05,-7.911523,40.646607,viseu,10,normal,2025-10-21 22:26:34.029051,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-05.csv
+ord-87c6c469,2025-10-05,-8.456165,40.223271,coimbra,5,low,2025-10-21 22:26:34.029051,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-05.csv
+ord-8cfd6c84,2025-10-05,-8.85987,41.696567,viana do castelo,10,low,2025-10-21 22:26:34.029051,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-05.csv
+ord-968a204a,2025-10-05,-7.929721,38.566126,évora,10,normal,2025-10-21 22:26:34.029051,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-05.csv
+ord-ac9e008a,2025-10-05,-8.697012,39.253131,santarém,20,high,2025-10-21 22:26:34.029051,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-05.csv
+ord-167cc952,2025-10-06,-7.915473,38.584364,évora,10,high,2025-10-21 22:26:34.029051,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-06.csv
+ord-23cecb82,2025-10-06,-7.461731,39.309384,portalegre,15,high,2025-10-21 22:26:34.029051,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-06.csv
+ord-446fca28,2025-10-06,-8.851084,41.69857,viana do castelo,15,high,2025-10-21 22:26:34.029051,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-06.csv
+ord-527f3756,2025-10-06,-7.883873,38.00637,beja,10,high,2025-10-21 22:26:34.029051,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-06.csv
+ord-5e53f114,2025-10-06,-7.880411,38.005708,beja,15,low,2025-10-21 22:26:34.029051,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-06.csv
+ord-70262087,2025-10-06,-7.903516,40.653567,viseu,15,normal,2025-10-21 22:26:34.029051,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-06.csv
+ord-923b8a28,2025-10-06,-9.132137,38.719069,lisboa,15,normal,2025-10-21 22:26:34.029051,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-06.csv
+ord-ae524c66,2025-10-06,-8.635199,40.6325,aveiro,15,low,2025-10-21 22:26:34.029051,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-06.csv
+ord-b6bb01f3,2025-10-06,-7.505833,39.838526,castelo branco,5,low,2025-10-21 22:26:34.029051,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-06.csv
+ord-b736655d,2025-10-06,-7.917528,38.55301,évora,15,high,2025-10-21 22:26:34.029051,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-06.csv
+ord-c6c9598a,2025-10-06,-8.408119,41.528141,braga,5,high,2025-10-21 22:26:34.029051,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-06.csv
+ord-d530c47d,2025-10-06,-8.402864,40.188672,coimbra,5,low,2025-10-21 22:26:34.029051,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-06.csv
+ord-e178a207,2025-10-06,-8.631603,41.177838,porto,5,low,2025-10-21 22:26:34.029051,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-06.csv
+ord-08a72013,2025-10-07,-7.919792,40.652144,viseu,5,normal,2025-10-21 22:26:34.029051,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-07.csv
+ord-1954020b,2025-10-07,-7.912215,37.000391,faro,15,normal,2025-10-21 22:26:34.029051,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-07.csv
+ord-1d5b47e8,2025-10-07,-8.406578,40.193749,coimbra,15,low,2025-10-21 22:26:34.029051,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-07.csv
+ord-30d73ee7,2025-10-07,-8.67299,40.635086,aveiro,5,normal,2025-10-21 22:26:34.029051,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-07.csv
+ord-481ee00e,2025-10-07,-9.119224,38.7256,lisboa,10,normal,2025-10-21 22:26:34.029051,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-07.csv
+ord-6feae575,2025-10-07,-7.923692,38.578195,évora,5,normal,2025-10-21 22:26:34.029051,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-07.csv
+ord-743becb0,2025-10-07,-7.737611,41.296587,vilareal,15,low,2025-10-21 22:26:34.029051,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-07.csv
+ord-79503012,2025-10-07,-8.785768,39.758453,leiria,10,low,2025-10-21 22:26:34.029051,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-07.csv
+ord-b989eedd,2025-10-07,-9.117784,38.711197,lisboa,20,normal,2025-10-21 22:26:34.029051,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-07.csv
+ord-bcadb637,2025-10-07,-7.902776,40.667677,viseu,15,high,2025-10-21 22:26:34.029051,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-07.csv
+ord-dafb4202,2025-10-07,-8.913505,38.522073,setúbal,20,high,2025-10-21 22:26:34.029051,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-07.csv
+ord-e8bc762f,2025-10-07,-8.423406,40.197127,coimbra,15,normal,2025-10-21 22:26:34.029051,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-07.csv
+ord-ea53c642,2025-10-07,-8.652388,41.175702,porto,10,high,2025-10-21 22:26:34.029051,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-07.csv
+ord-ea66f894,2025-10-07,-7.23357,40.547279,guarda,10,low,2025-10-21 22:26:34.029051,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-07.csv
+ord-ebb4cdc0,2025-10-07,-7.242239,40.519063,guarda,15,low,2025-10-21 22:26:34.029051,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-07.csv
+ord-01fa7476,2025-10-08,-8.822389,39.75503,leiria,15,normal,2025-10-21 22:26:34.029051,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-08.csv
+ord-17d76ca1,2025-10-08,-8.823497,41.678185,viana do castelo,15,high,2025-10-21 22:26:34.029051,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-08.csv
+ord-22f5c794,2025-10-08,-7.287802,40.54387,guarda,15,high,2025-10-21 22:26:34.029051,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-08.csv
+ord-2bf22676,2025-10-08,-7.928169,37.011438,faro,5,normal,2025-10-21 22:26:34.029051,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-08.csv
+ord-3998a6e9,2025-10-08,-8.656327,41.177257,porto,5,normal,2025-10-21 22:26:34.029051,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-08.csv
+ord-4750d1db,2025-10-08,-7.455261,39.31268,portalegre,10,normal,2025-10-21 22:26:34.029051,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-08.csv
+ord-5adabab1,2025-10-08,-7.899332,38.555686,évora,10,low,2025-10-21 22:26:34.029051,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-08.csv
+ord-b7311721,2025-10-08,-7.238832,40.540327,guarda,20,normal,2025-10-21 22:26:34.029051,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-08.csv
+ord-bd953d05,2025-10-08,-8.794986,39.736647,leiria,15,high,2025-10-21 22:26:34.029051,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-08.csv
+ord-cc76a2d0,2025-10-08,-7.925569,37.010751,faro,15,low,2025-10-21 22:26:34.029051,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-08.csv
+ord-d7569f55,2025-10-08,-6.772061,41.812942,bragança,5,low,2025-10-21 22:26:34.029051,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-08.csv
+ord-dbe55971,2025-10-08,-8.66399,40.647097,aveiro,20,high,2025-10-21 22:26:34.029051,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-08.csv
+ord-e394d634,2025-10-08,-9.126773,38.702368,lisboa,10,normal,2025-10-21 22:26:34.029051,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-08.csv
+ord-eb18d96e,2025-10-08,-8.68547,39.224748,santarém,20,high,2025-10-21 22:26:34.029051,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-08.csv
+ord-06db4110,2025-10-09,-8.661624,40.648258,aveiro,10,low,2025-10-21 22:26:34.029051,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-09.csv
+ord-3d072064,2025-10-09,-8.82093,39.737034,leiria,5,low,2025-10-21 22:26:34.029051,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-09.csv
+ord-7627e1f8,2025-10-09,-7.483295,39.813184,castelo branco,5,high,2025-10-21 22:26:34.029051,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-09.csv
+ord-85d656bd,2025-10-09,-8.671945,39.255716,santarém,15,normal,2025-10-21 22:26:34.029051,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-09.csv
+ord-8cc7dafa,2025-10-09,-7.929147,38.585019,évora,20,low,2025-10-21 22:26:34.029051,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-09.csv
+ord-9ccfdb6d,2025-10-09,-7.267544,40.539004,guarda,20,low,2025-10-21 22:26:34.029051,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-09.csv
+ord-c64f816d,2025-10-09,-7.493896,39.832271,castelo branco,15,high,2025-10-21 22:26:34.029051,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-09.csv
+ord-cb4bcef8,2025-10-09,-7.436596,39.312974,portalegre,20,low,2025-10-21 22:26:34.029051,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-09.csv
+ord-cea1a3ad,2025-10-09,-7.878248,38.029033,beja,20,low,2025-10-21 22:26:34.029051,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-09.csv
+ord-e593da4f,2025-10-09,-6.758081,41.82441,bragança,15,normal,2025-10-21 22:26:34.029051,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-09.csv
+ord-f95e2534,2025-10-09,-7.893727,40.656579,viseu,5,high,2025-10-21 22:26:34.029051,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-09.csv
+ord-06f03a1c,2025-10-10,-8.412326,41.55147,braga,5,low,2025-10-21 22:26:34.029051,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-10.csv
+ord-0c2dd115,2025-10-10,-7.893346,40.665853,viseu,10,low,2025-10-21 22:26:34.029051,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-10.csv
+ord-1d77ab15,2025-10-10,-7.283858,40.535768,guarda,5,normal,2025-10-21 22:26:34.029051,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-10.csv
+ord-2e98a4f7,2025-10-10,-7.923324,38.566126,évora,20,normal,2025-10-21 22:26:34.029051,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-10.csv
+ord-59e1d938,2025-10-10,-7.848349,38.016945,beja,10,normal,2025-10-21 22:26:34.029051,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-10.csv
+ord-837fadd9,2025-10-10,-7.891582,38.010861,beja,5,low,2025-10-21 22:26:34.029051,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-10.csv
+ord-cf4a3419,2025-10-10,-7.480732,39.824759,castelo branco,10,normal,2025-10-21 22:26:34.029051,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-10.csv
+ord-cf4f3aa0,2025-10-10,-6.743249,41.82032,bragança,10,high,2025-10-21 22:26:34.029051,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-10.csv
+ord-d1b9c574,2025-10-10,-7.519737,39.823777,castelo branco,15,low,2025-10-21 22:26:34.029051,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-10.csv
+ord-f2238ac7,2025-10-10,-6.767059,41.804888,bragança,15,normal,2025-10-21 22:26:34.029051,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-10.csv
+ord-f388c36e,2025-10-10,-8.878079,38.537677,setúbal,15,low,2025-10-21 22:26:34.029051,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-10.csv
+ord-2f1c2422,2025-10-11,-7.766033,41.30489,vilareal,5,low,2025-10-21 22:26:34.029051,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-11.csv
+ord-5137db4e,2025-10-11,-8.433189,40.197788,coimbra,20,high,2025-10-21 22:26:34.029051,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-11.csv
+ord-6d53ee83,2025-10-11,-9.148468,38.719435,lisboa,15,low,2025-10-21 22:26:34.029051,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-11.csv
+ord-9575b46e,2025-10-11,-7.423347,39.277206,portalegre,20,normal,2025-10-21 22:26:34.029051,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-11.csv
+ord-b87e35f0,2025-10-11,-7.933586,38.577599,évora,5,high,2025-10-21 22:26:34.029051,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-11.csv
+ord-c2d27dc1,2025-10-11,-8.649371,40.649852,aveiro,15,high,2025-10-21 22:26:34.029051,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-11.csv
+ord-eb6d4788,2025-10-11,-7.846722,38.013695,beja,15,normal,2025-10-21 22:26:34.029051,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-11.csv
+ord-f06260dd,2025-10-11,-6.762901,41.815301,bragança,5,high,2025-10-21 22:26:34.029051,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-11.csv
+ord-f3207844,2025-10-11,-8.828514,39.724627,leiria,15,high,2025-10-21 22:26:34.029051,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-11.csv
+ord-059bb362,2025-10-12,-7.508173,39.834113,castelo branco,15,normal,2025-10-21 22:26:34.029051,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-12.csv
+ord-3716a4d1,2025-10-12,-8.821704,39.751271,leiria,15,high,2025-10-21 22:26:34.029051,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-12.csv
+ord-4eb15543,2025-10-12,-7.747704,41.301837,vilareal,20,high,2025-10-21 22:26:34.029051,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-12.csv
+ord-5a03bc2f,2025-10-12,-8.442464,41.543432,braga,20,high,2025-10-21 22:26:34.029051,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-12.csv
+ord-7c7d1fad,2025-10-12,-6.766516,41.806472,bragança,15,low,2025-10-21 22:26:34.029051,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-12.csv
+ord-e57d16a8,2025-10-12,-7.896496,38.566243,évora,10,high,2025-10-21 22:26:34.029051,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-12.csv
+ord-eb9980aa,2025-10-12,-8.889853,38.525065,setúbal,10,low,2025-10-21 22:26:34.029051,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-12.csv
+ord-f9097481,2025-10-12,-7.482146,39.821833,castelo branco,5,low,2025-10-21 22:26:34.029051,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-12.csv
+ord-2c3ad23d,2025-10-13,-8.842191,41.69135,viana do castelo,15,normal,2025-10-21 22:26:34.029051,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-13.csv
+ord-498b53db,2025-10-13,-7.50431,39.825783,castelo branco,15,low,2025-10-21 22:26:34.029051,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-13.csv
+ord-6174e49a,2025-10-13,-7.925925,40.655435,viseu,15,low,2025-10-21 22:26:34.029051,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-13.csv
+ord-792db4e6,2025-10-13,-6.759669,41.804409,bragança,20,normal,2025-10-21 22:26:34.029051,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-13.csv
+ord-797a2c09,2025-10-13,-7.932461,38.554403,évora,5,high,2025-10-21 22:26:34.029051,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-13.csv
+ord-7d679fa4,2025-10-13,-7.836147,38.022707,beja,10,low,2025-10-21 22:26:34.029051,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-13.csv
+ord-8f0747ec,2025-10-13,-8.793155,39.728651,leiria,20,low,2025-10-21 22:26:34.029051,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-13.csv
+ord-a2c2bfb8,2025-10-13,-8.425716,40.199947,coimbra,10,high,2025-10-21 22:26:34.029051,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-13.csv
+ord-a95f57ac,2025-10-13,-7.885605,37.996921,beja,5,high,2025-10-21 22:26:34.029051,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-13.csv
+ord-a9bf0203,2025-10-13,-8.435158,41.528363,braga,5,low,2025-10-21 22:26:34.029051,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-13.csv
+ord-b9f4b081,2025-10-13,-7.90717,37.009499,faro,20,low,2025-10-21 22:26:34.029051,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-13.csv
+ord-eb090369,2025-10-13,-8.626831,40.658465,aveiro,5,low,2025-10-21 22:26:34.029051,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-13.csv
+ord-ff5028f8,2025-10-13,-8.624656,41.156676,porto,20,normal,2025-10-21 22:26:34.029051,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-13.csv
+ord-012d0f45,2025-10-14,-7.503424,39.811459,castelo branco,15,high,2025-10-21 22:26:34.029051,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-14.csv
+ord-1c2fa534,2025-10-14,-7.918192,40.662782,viseu,10,normal,2025-10-21 22:26:34.029051,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-14.csv
+ord-210d7a58,2025-10-14,-7.423109,39.313343,portalegre,10,high,2025-10-21 22:26:34.029051,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-14.csv
+ord-2f8c1f66,2025-10-14,-6.730139,41.806719,bragança,20,normal,2025-10-21 22:26:34.029051,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-14.csv
+ord-4163d756,2025-10-14,-8.707729,39.225537,santarém,15,high,2025-10-21 22:26:34.029051,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-14.csv
+ord-4a11983a,2025-10-14,-8.808651,39.742348,leiria,15,high,2025-10-21 22:26:34.029051,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-14.csv
+ord-6611fe43,2025-10-14,-8.671215,40.627137,aveiro,15,high,2025-10-21 22:26:34.029051,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-14.csv
+ord-8c14a1ea,2025-10-14,-9.132722,38.731904,lisboa,10,high,2025-10-21 22:26:34.029051,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-14.csv
+ord-8f99f192,2025-10-14,-8.888625,38.534924,setúbal,10,normal,2025-10-21 22:26:34.029051,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-14.csv
+ord-92803097,2025-10-14,-7.927821,40.644247,viseu,10,low,2025-10-21 22:26:34.029051,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-14.csv
+ord-969a8901,2025-10-14,-8.921648,38.513557,setúbal,5,high,2025-10-21 22:26:34.029051,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-14.csv
+ord-9f2cf692,2025-10-14,-7.253913,40.536969,guarda,5,normal,2025-10-21 22:26:34.029051,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-14.csv
+ord-aa547e35,2025-10-14,-8.423318,41.560977,braga,15,high,2025-10-21 22:26:34.029051,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-14.csv
+ord-ff80430b,2025-10-14,-7.888696,37.995207,beja,20,high,2025-10-21 22:26:34.029051,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-14.csv
+ord-452e4a41,2025-10-15,-6.734805,41.819697,bragança,5,high,2025-10-21 22:26:34.029051,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-15.csv
+ord-7984cca7,2025-10-15,-7.880165,38.583217,évora,20,low,2025-10-21 22:26:34.029051,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-15.csv
+ord-8001a5d0,2025-10-15,-7.483375,39.8326,castelo branco,10,normal,2025-10-21 22:26:34.029051,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-15.csv
+ord-9f61bcfb,2025-10-15,-7.865481,37.997268,beja,15,high,2025-10-21 22:26:34.029051,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-15.csv
+ord-a6fedef9,2025-10-15,-9.14201,38.714881,lisboa,15,low,2025-10-21 22:26:34.029051,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-15.csv
+ord-bc419b39,2025-10-15,-7.885339,38.006621,beja,20,low,2025-10-21 22:26:34.029051,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-15.csv
+ord-c8f03b6e,2025-10-15,-7.946455,36.999947,faro,20,low,2025-10-21 22:26:34.029051,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-15.csv
+ord-d384690b,2025-10-15,-8.600711,41.162255,porto,10,high,2025-10-21 22:26:34.029051,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-15.csv
+ord-e2df3e55,2025-10-15,-7.272001,40.544105,guarda,10,normal,2025-10-21 22:26:34.029051,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-15.csv
+ord-fd1df207,2025-10-15,-7.25038,40.528829,guarda,20,high,2025-10-21 22:26:34.029051,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-15.csv
+ord-00ef46b4,2025-10-16,-7.289381,40.547088,guarda,20,normal,2025-10-21 22:26:34.029051,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-16.csv
+ord-0175ffeb,2025-10-16,-7.884854,40.650552,viseu,20,low,2025-10-21 22:26:34.029051,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-16.csv
+ord-04f2377b,2025-10-16,-8.645597,40.649164,aveiro,15,normal,2025-10-21 22:26:34.029051,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-16.csv
+ord-2452a99e,2025-10-16,-7.888388,40.66133,viseu,10,low,2025-10-21 22:26:34.029051,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-16.csv
+ord-459244c0,2025-10-16,-8.706017,39.252618,santarém,5,high,2025-10-21 22:26:34.029051,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-16.csv
+ord-4daa0d2f,2025-10-16,-8.650901,40.646691,aveiro,10,low,2025-10-21 22:26:34.029051,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-16.csv
+ord-61cf867a,2025-10-16,-8.64578,40.621981,aveiro,15,low,2025-10-21 22:26:34.029051,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-16.csv
+ord-752bd891,2025-10-16,-7.468984,39.820062,castelo branco,20,normal,2025-10-21 22:26:34.029051,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-16.csv
+ord-8c5f862b,2025-10-16,-8.830185,41.694937,viana do castelo,20,normal,2025-10-21 22:26:34.029051,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-16.csv
+ord-a49326da,2025-10-16,-7.462085,39.811949,castelo branco,10,normal,2025-10-21 22:26:34.029051,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-16.csv
+ord-b0f48642,2025-10-16,-8.876839,38.538576,setúbal,15,high,2025-10-21 22:26:34.029051,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-16.csv
+ord-b4d39e05,2025-10-16,-7.468557,39.803636,castelo branco,5,low,2025-10-21 22:26:34.029051,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-16.csv
+ord-b699fbe9,2025-10-16,-8.873967,38.515714,setúbal,15,high,2025-10-21 22:26:34.029051,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-16.csv
+ord-d783a327,2025-10-16,-8.408094,41.559494,braga,20,normal,2025-10-21 22:26:34.029051,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-16.csv
+ord-f9c2c095,2025-10-16,-7.474008,39.812801,castelo branco,20,high,2025-10-21 22:26:34.029051,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-16.csv
+ord-168e637f,2025-10-17,-7.76296,41.288205,vilareal,15,high,2025-10-21 22:26:34.029051,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-17.csv
+ord-262f7368,2025-10-17,-8.660848,40.636982,aveiro,10,low,2025-10-21 22:26:34.029051,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-17.csv
+ord-2d8de061,2025-10-17,-8.625144,41.165332,porto,5,high,2025-10-21 22:26:34.029051,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-17.csv
+ord-3ecfab81,2025-10-17,-7.916818,38.561058,évora,15,high,2025-10-21 22:26:34.029051,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-17.csv
+ord-4224e773,2025-10-17,-8.661569,40.646016,aveiro,20,normal,2025-10-21 22:26:34.029051,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-17.csv
+ord-500f7615,2025-10-17,-8.775154,39.753471,leiria,20,low,2025-10-21 22:26:34.029051,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-17.csv
+ord-5b3c4439,2025-10-17,-8.833684,39.756802,leiria,20,normal,2025-10-21 22:26:34.029051,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-17.csv
+ord-68ba9918,2025-10-17,-7.47093,39.838317,castelo branco,10,high,2025-10-21 22:26:34.029051,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-17.csv
+ord-8971a3a8,2025-10-17,-7.960362,37.034234,faro,10,normal,2025-10-21 22:26:34.029051,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-17.csv
+ord-ab476418,2025-10-17,-8.823047,39.738988,leiria,20,low,2025-10-21 22:26:34.029051,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-17.csv
+ord-c6ff1f6d,2025-10-17,-8.605165,41.15651,porto,15,high,2025-10-21 22:26:34.029051,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-17.csv
+ord-dd565e87,2025-10-17,-8.432579,40.21106,coimbra,5,low,2025-10-21 22:26:34.029051,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-17.csv
+ord-e2903fc8,2025-10-17,-8.796664,39.740572,leiria,15,normal,2025-10-21 22:26:34.029051,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-17.csv
+ord-e6630096,2025-10-17,-8.815531,41.684935,viana do castelo,15,normal,2025-10-21 22:26:34.029051,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-17.csv
+ord-eadc39b9,2025-10-17,-7.883721,38.012769,beja,15,high,2025-10-21 22:26:34.029051,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-17.csv
+ord-02e9fbed,2025-10-18,-8.637805,40.656636,aveiro,5,normal,2025-10-21 22:26:34.029051,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-18.csv
+ord-1be6cb72,2025-10-18,-8.868357,38.542168,setúbal,15,high,2025-10-21 22:26:34.029051,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-18.csv
+ord-2564e97e,2025-10-18,-8.815046,41.691933,viana do castelo,5,low,2025-10-21 22:26:34.029051,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-18.csv
+ord-285d641d,2025-10-18,-8.775244,39.728245,leiria,10,high,2025-10-21 22:26:34.029051,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-18.csv
+ord-34399540,2025-10-18,-8.815397,39.74022,leiria,10,low,2025-10-21 22:26:34.029051,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-18.csv
+ord-34e31635,2025-10-18,-7.888092,38.575669,évora,20,high,2025-10-21 22:26:34.029051,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-18.csv
+ord-46676a83,2025-10-18,-7.840612,38.009734,beja,15,low,2025-10-21 22:26:34.029051,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-18.csv
+ord-4dfd021f,2025-10-18,-7.770682,41.296383,vilareal,15,high,2025-10-21 22:26:34.029051,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-18.csv
+ord-626de91f,2025-10-18,-8.652181,40.63534,aveiro,20,high,2025-10-21 22:26:34.029051,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-18.csv
+ord-69053513,2025-10-18,-8.709998,39.230794,santarém,10,low,2025-10-21 22:26:34.029051,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-18.csv
+ord-69cb8ae0,2025-10-18,-8.431913,40.210213,coimbra,15,high,2025-10-21 22:26:34.029051,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-18.csv
+ord-8139604d,2025-10-18,-8.796046,39.728267,leiria,5,low,2025-10-21 22:26:34.029051,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-18.csv
+ord-886dd444,2025-10-18,-6.737355,41.824312,bragança,5,high,2025-10-21 22:26:34.029051,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-18.csv
+ord-c269377a,2025-10-18,-7.911411,38.571482,évora,15,high,2025-10-21 22:26:34.029051,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-18.csv
+ord-f22c8116,2025-10-18,-7.900841,38.572116,évora,20,high,2025-10-21 22:26:34.029051,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-18.csv
+ord-31d5117e,2025-10-19,-9.127883,38.710991,lisboa,20,low,2025-10-21 22:26:34.029051,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-19.csv
+ord-34bef846,2025-10-19,-8.848686,41.678237,viana do castelo,10,low,2025-10-21 22:26:34.029051,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-19.csv
+ord-473d9430,2025-10-19,-7.905198,40.664886,viseu,5,low,2025-10-21 22:26:34.029051,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-19.csv
+ord-5823a145,2025-10-19,-7.770139,41.308027,vilareal,15,low,2025-10-21 22:26:34.029051,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-19.csv
+ord-7f6d3c65,2025-10-19,-7.252705,40.550648,guarda,20,normal,2025-10-21 22:26:34.029051,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-19.csv
+ord-e3139aaf,2025-10-19,-6.770147,41.825428,bragança,20,low,2025-10-21 22:26:34.029051,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-19.csv
+ord-e33785c1,2025-10-19,-7.880771,38.003738,beja,10,normal,2025-10-21 22:26:34.029051,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-19.csv
+ord-1d59941a,2025-10-20,-8.41446,40.20235,coimbra,15,high,2025-10-21 22:26:34.029051,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-20.csv
+ord-79ceb560,2025-10-20,-8.875289,38.508797,setúbal,5,low,2025-10-21 22:26:34.029051,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-20.csv
+ord-7a8b5d06,2025-10-20,-8.43208,40.192162,coimbra,5,high,2025-10-21 22:26:34.029051,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-20.csv
+ord-8b84afa0,2025-10-20,-8.642464,41.177261,porto,10,high,2025-10-21 22:26:34.029051,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-20.csv
+ord-9d62bec5,2025-10-20,-7.949178,37.00447,faro,20,high,2025-10-21 22:26:34.029051,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-20.csv
+ord-e047ece5,2025-10-20,-7.444102,39.302434,portalegre,5,low,2025-10-21 22:26:34.029051,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-20.csv
+ord-f09e8d2d,2025-10-20,-8.637605,41.169437,porto,15,low,2025-10-21 22:26:34.029051,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-20.csv
+ord-071325cd,2025-10-21,-8.607781,41.172559,porto,20,normal,2025-10-21 22:28:36.174358,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-21.csv
+ord-0f5f5c38,2025-10-21,-8.410772,41.554589,braga,5,normal,2025-10-21 22:28:36.174358,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-21.csv
+ord-27de29f9,2025-10-21,-8.657599,41.148901,porto,10,low,2025-10-21 22:28:36.174358,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-21.csv
+ord-4f925d8f,2025-10-21,-8.423844,40.215677,coimbra,5,low,2025-10-21 22:28:36.174358,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-21.csv
+ord-5e8081ba,2025-10-21,-9.137252,38.712092,lisboa,20,normal,2025-10-21 22:28:36.174358,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-21.csv
+ord-5e9ed205,2025-10-21,-9.129089,38.730373,lisboa,5,high,2025-10-21 22:28:36.174358,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-21.csv
+ord-5fdcf9fb,2025-10-21,-8.438785,40.189519,coimbra,15,low,2025-10-21 22:28:36.174358,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-21.csv
+ord-6a50458d,2025-10-21,-8.399829,41.551,braga,10,high,2025-10-21 22:28:36.174358,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-21.csv
+ord-7722d207,2025-10-21,-8.618498,41.173587,porto,5,high,2025-10-21 22:28:36.174358,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-21.csv
+ord-7faaacc5,2025-10-21,-8.625425,41.166541,porto,20,low,2025-10-21 22:28:36.174358,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-21.csv
+ord-8dd607f1,2025-10-21,-8.421059,40.197893,coimbra,15,normal,2025-10-21 22:28:36.174358,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-21.csv
+ord-a809a0bd,2025-10-21,-8.625978,41.171076,porto,15,high,2025-10-21 22:28:36.174358,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-21.csv
+ord-afbec077,2025-10-21,-8.636304,41.152259,porto,15,high,2025-10-21 22:28:36.174358,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-21.csv
+ord-bdd1b18c,2025-10-21,-8.457293,40.187048,coimbra,10,high,2025-10-21 22:28:36.174358,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-21.csv
+ord-ec29aba5,2025-10-21,-9.127026,38.704133,lisboa,10,normal,2025-10-21 22:28:36.174358,C:\Users\cbobr\Documents\Repo\GeoLogistic\data\bronze\orders_pt_2025-10-21.csv

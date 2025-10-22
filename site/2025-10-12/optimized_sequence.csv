@@ -1,0 +1,10 @@
+type,city,lon,lat,order_id
+warehouse,porto,-8.6291,41.1579,
+order,braga,-8.442464,41.543432,ord-5a03bc2f
+order,bragança,-6.766516,41.806472,ord-7c7d1fad
+order,castelo branco,-7.508173,39.834113,ord-059bb362
+order,setúbal,-8.889853,38.525065,ord-eb9980aa
+order,évora,-7.896496,38.566243,ord-e57d16a8
+order,castelo branco,-7.482146,39.821833,ord-f9097481
+order,leiria,-8.821704,39.751271,ord-3716a4d1
+order,vilareal,-7.747704,41.301837,ord-4eb15543

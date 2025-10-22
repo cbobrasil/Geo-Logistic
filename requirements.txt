@@ -1,0 +1,9 @@
+pandas
+geopandas
+shapely
+faker
+pyproj
+folium
+duckdb==1.0.0
+pyarrow
+pandas
