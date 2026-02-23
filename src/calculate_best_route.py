@@ -6,31 +6,31 @@ import folium
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--orders-csv", required=True, help="caminho para o csv de orders do dia")
-    ap.add_argument("--warehouse-csv", required=True, help="caminho para o csv de warehouse")
-    ap.add_argument("--max-orders", type=int, default=25, help="limite de pontos (além da warehouse)")
-    ap.add_argument("--out-html", required=True, help="arquivo html de saída")
-    ap.add_argument("--out-csv", required=True, help="arquivo csv com sequência otimizada")
-    ap.add_argument("--scheduled-date", required=False, help="yyyy-mm-dd (usado só para logs)")
+    ap.add_argument("--orders-csv", required=True, help="path to the orders CSV file for the day")
+    ap.add_argument("--warehouse-csv", required=True, help="path to the warehouse CSV file")
+    ap.add_argument("--max-orders", type=int, default=25, help="limit of delivery points (besides the warehouse)")
+    ap.add_argument("--out-html", required=True, help="output HTML file path")
+    ap.add_argument("--out-csv", required=True, help="output CSV file with optimized sequence")
+    ap.add_argument("--scheduled-date", required=False, help="yyyy-mm-dd (used for logs only)")
     args = ap.parse_args()
 
-    # -------- carregar dados --------
+    # -------- reading data --------
     orders_df = pd.read_csv(args.orders_csv)
     warehouse_df = pd.read_csv(args.warehouse_csv)
 
-    assert {"lon", "lat", "city"}.issubset(orders_df.columns), "orders.csv deve ter colunas lon, lat, city"
-    assert {"lon", "lat", "city"}.issubset(warehouse_df.columns), "warehouse.csv deve ter colunas lon, lat, city"
+    assert {"lon", "lat", "city"}.issubset(orders_df.columns), "orders.csv need to have lon, lat, city columns"
+    assert {"lon", "lat", "city"}.issubset(warehouse_df.columns), "warehouse.csv  need to have lon, lat, city columns"
 
-    # limita quantidade de orders (para não exagerar no demo server)
+    # limiting quantity of orders
     orders_df = orders_df.head(args.max_orders).copy()
     if orders_df.empty:
-        raise ValueError("nenhuma order encontrada.")
+        raise ValueError("No orders found.")
 
-    # pega a warehouse (primeira linha)
+    # Gets the warehouse
     wh = warehouse_df.iloc[0].to_dict()
     wh_lonlat = (float(wh["lon"]), float(wh["lat"]))
 
-    # constrói lista de pontos: warehouse primeiro, depois orders
+    # build list of points : first warehouse then orders
     points = [wh_lonlat] + list(zip(orders_df["lon"].astype(float), orders_df["lat"].astype(float)))
 
     # monta string de coordenadas no formato osrm: "lon,lat;lon,lat;..."

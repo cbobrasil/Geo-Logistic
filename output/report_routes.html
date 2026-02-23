@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>geo logistic routes report</title>
+
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin="" />
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
+
+  <style>
+    body { margin: 0; font-family: system-ui, -apple-system, segoe ui, roboto, ubuntu, cantarell, noto sans, sans-serif; }
+    .wrap { display: grid; grid-template-columns: 380px 1fr; height: 100vh; }
+    .side { padding: 14px; border-right: 1px solid #e6e6e6; overflow: auto; }
+    .map { height: 100vh; }
+    .title { font-size: 18px; font-weight: 700; margin: 0 0 8px 0; }
+    .sub { font-size: 13px; color: #444; margin: 0 0 10px 0; }
+    label { font-size: 12px; color: #333; }
+    select { width: 100%; padding: 8px; font-size: 14px; }
+    .meta { font-size: 12px; color: #333; background: #f7f7f7; padding: 10px; border-radius: 8px; margin-top: 10px; }
+    ol { padding-left: 20px; }
+    li { margin-bottom: 10px; }
+    .stop-type { font-size: 11px; color: #666; text-transform: uppercase; }
+    .stop-main { font-size: 13px; font-weight: 600; }
+    .stop-sub { font-size: 12px; color: #444; }
+    .hint { font-size: 12px; color: #666; margin-top: 10px; }
+    .err { color: #b00020; font-size: 12px; white-space: pre-wrap; }
+  </style>
+</head>
+
+<body>
+<div class="wrap">
+  <div class="side">
+    <div class="title">routes report</div>
+    <div class="sub">select a date to view the optimized route and ordered stop list</div>
+
+    <label for="day_select">date</label>
+    <select id="day_select"></select>
+
+    <div class="meta" id="meta_box">loading...</div>
+
+    <div style="font-size: 13px; font-weight: 700; margin: 12px 0 6px 0;">stops in order</div>
+    <ol id="stops_list"></ol>
+    <div class="hint">note: this route uses osrm trip with a roundtrip starting at the warehouse</div>
+
+    <div class="err" id="err_box"></div>
+  </div>
+
+  <div id="map" class="map"></div>
+</div>
+
+<script>
+  let data = null;
+
+  function setError(msg) {
+    document.getElementById("err_box").textContent = msg || "";
+  }
+
+  async function loadData() {
+    const resp = await fetch("./report_routes_data.json");
+    if (!resp.ok) {
+      throw new Error("could not load report_routes_data.json, http " + resp.status);
+    }
+    return await resp.json();
+  }
+
+  function initUi() {
+    const wh = data.warehouse;
+    const map = L.map("map").setView([wh.lat, wh.lon], 7);
+
+    L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+      maxZoom: 19,
+      attribution: "© OpenStreetMap contributors"
+    }).addTo(map);
+
+    let routeLayer = null;
+    let markerLayer = L.layerGroup().addTo(map);
+
+    function clearLayers() {
+      if (routeLayer) {
+        map.removeLayer(routeLayer);
+        routeLayer = null;
+      }
+      markerLayer.clearLayers();
+    }
+
+    function setMeta(day) {
+      const m = data.meta_by_day[day];
+      const el = document.getElementById("meta_box");
+      el.innerHTML = `
+        <div><b>date:</b> ${day}</div>
+        <div><b>orders used:</b> ${m.orders_used}</div>
+        <div><b>distance:</b> ${m.total_distance_km.toFixed(1)} km</div>
+        <div><b>duration:</b> ${m.total_duration_min.toFixed(1)} min</div>
+      `;
+    }
+
+    function setStopsList(day) {
+      const stops = data.routes_by_day[day].stops;
+      const ol = document.getElementById("stops_list");
+      ol.innerHTML = "";
+
+      stops.forEach((s, i) => {
+        const li = document.createElement("li");
+        const type = s.type === "warehouse" ? "warehouse" : "delivery";
+        const title = s.type === "warehouse"
+          ? "warehouse: " + (s.city || "warehouse")
+          : "order " + (s.order_id || "");
+        const sub = s.address || s.city || "";
+
+        li.innerHTML = `
+          <div class="stop-type">${type}</div>
+          <div class="stop-main">${i + 1}. ${title}</div>
+          <div class="stop-sub">${sub}</div>
+        `;
+        ol.appendChild(li);
+      });
+    }
+
+    function addMarkers(day) {
+      const stops = data.routes_by_day[day].stops;
+      stops.forEach((s, i) => {
+        const popup = (i + 1) + ". " + (s.type === "warehouse" ? "warehouse" : "order") + " - " + (s.city || "");
+        L.marker([s.lat, s.lon], { title: popup }).bindPopup(popup).addTo(markerLayer);
+      });
+    }
+
+    function setRoute(day) {
+      clearLayers();
+
+      const route = data.routes_by_day[day].route_geojson;
+      routeLayer = L.geoJSON(route).addTo(map);
+
+      addMarkers(day);
+      setStopsList(day);
+      setMeta(day);
+
+      try {
+        map.fitBounds(routeLayer.getBounds(), { padding: [20, 20] });
+      } catch (e) {
+        map.setView([wh.lat, wh.lon], 7);
+      }
+    }
+
+    const sel = document.getElementById("day_select");
+    sel.innerHTML = "";
+
+    if (!data.days || data.days.length === 0) {
+      document.getElementById("meta_box").textContent = "no days found in dataset";
+      return;
+    }
+
+    data.days.forEach((d) => {
+      const opt = document.createElement("option");
+      opt.value = d;
+      opt.textContent = d;
+      sel.appendChild(opt);
+    });
+
+    sel.addEventListener("change", (e) => setRoute(e.target.value));
+
+    sel.value = data.days[data.days.length - 1];
+    setRoute(sel.value);
+  }
+
+  (async () => {
+    try {
+      data = await loadData();
+      initUi();
+    } catch (e) {
+      setError(String(e));
+      document.getElementById("meta_box").textContent = "failed to load report data";
+    }
+  })();
+</script>
+
+</body>
+</html>

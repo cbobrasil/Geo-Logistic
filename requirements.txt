@@ -7,3 +7,5 @@ folium
 duckdb==1.0.0
 pyarrow
 pandas
+requests
+folium

@@ -10,8 +10,8 @@ from pathlib import Path
 seed = 42
 random.seed(seed)
 
-start_date = date(2025, 10, 1)
-end_date   = date(2025, 10, 20)
+start_date = date(2026, 1, 1)
+end_date   = date(2026, 1, 31)
 
 
 current_ts = datetime.now(timezone.utc)

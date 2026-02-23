@@ -16,8 +16,7 @@ df = con.execute(f"""
     order by scheduled_date, order_id
 """).df()
 
-(df
- .to_parquet(silver / "orders_all.parquet", index=False))
+(df.to_parquet(silver / "orders_all.parquet", index=False))
 df.to_csv(silver / "orders_all.csv", index=False)
 
 print("ok:", len(df), "rows →", silver / "orders_all.parquet")
