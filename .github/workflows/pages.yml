@@ -32,19 +32,20 @@ jobs:
       - name: generate today
         run: python src/create_orders_today.py
 
-      - name: consolidate (optional)
+      - name: consolidate
         run: python src/consolidate_duckdb.py
 
-      - name: render pages
+      - name: build routes report
         run: |
-          d=$(date -u +%Y-%m-%d)
-          python src/render/build_day.py --date "$d" || true
-          python src/render/build_index.py
+          python src/build_routes_report.py \
+            --orders-path data/silver/orders_all.csv \
+            --warehouse-csv data/warehouse.csv \
+            --out-html output/report_routes.html
 
       - name: upload pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: site
+          path: output
 
   deploy:
     needs: build
