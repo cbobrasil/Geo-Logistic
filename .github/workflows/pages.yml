@@ -40,7 +40,7 @@ jobs:
           python src/build_routes_report.py \
             --orders-path data/silver/orders_all.csv \
             --warehouse-csv data/warehouse.csv \
-            --out-html output/report_routes.html
+            --out-html output/index.html
 
       - name: upload pages artifact
         uses: actions/upload-pages-artifact@v3
